@@ -1,4 +1,4 @@
-## Palindrome Problem : 
+#Easy Prob 9: Palindrome Number 
 
 
 #By converting to string
@@ -11,7 +11,7 @@ def is_palindrome_00(x: int) -> bool:
         
     return True
 
-#Without converting to string and reverse the whole number
+#Without converting to string and reversing the whole number
 def is_palindrome_01(x: int) -> bool :
     if x<0 : 
         return False 
@@ -30,7 +30,7 @@ def is_palindrome_01(x: int) -> bool :
     return int(y) == x
 
 
-# Reverse only half of it
+#Reverse only half of it
 def is_palindrome_02(x: int) -> bool:
     
     if x < 0 or (x%10 == 0 and x!=0) : 
@@ -45,7 +45,7 @@ def is_palindrome_02(x: int) -> bool:
         x =  (x-d) / 10
         y = y*10 + d
     
-    #Odd number of digits
+    #In case of odd number of digits
     return x == y or int(y/10) == x
 
 
