@@ -46,9 +46,18 @@ while True:
         initial_ty -= 1
 
 
-    # Write an action using print
-    # To debug: print("Debug messages...", file=sys.stderr, flush=True)
+    #answer = ""
+    #if ty > light_y:
+    #    answer = "N"
+    #    ty -= 1
+    #elif ty < light_y:
+    #    answer = "S"
+    #    ty += 1
+    #if tx > light_x:
+    #    answer += "W"
+    #    tx -= 1
+    #elif tx < light_x:
+    #    answer += "E"
+    #    tx += 1
 
-
-    # A single line providing the move to be made: N NE E SE S SW W or NW
-    #print("SE")
+    #print(answer)
